@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+body{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    height: calc(100vh - 0.1px);
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    background-color: hsl(221, 100%, 96%);
+}
+.main{
+    display: flex;
+    background-color:hsl(0, 0%, 100%);;
+    border-top-right-radius:1.5rem;
+    border-bottom-right-radius:1.5rem;
+}
+
+.one{
+    display: grid;
+    border-radius: 1.5em;
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    text-align: center;
+    padding: 30px;
+    width: 250px;
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+    font-size: 60px;
+    margin-bottom: -10px;
+    margin-top: -1px;
+}
+.one h2{
+    color: hsl(241, 100%, 89%);
+}
+.score{
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 77%, 42%, 0.99));
+    border-radius: 700em;
+    background-color: white;
+    width: 110px;
+    padding: 20px;
+    margin-left:55px;
+}
+.score p{
+    color: hsl(241, 100%, 89%);
+    margin-top: 30px;
+}
+.one h3{
+    color: hsl(0, 0%, 100%);
+    margin-top: 25px;
+}
+.one p{
+    color:hsl(241, 100%, 89%);
+    margin-top: -20px;
+}
+p{
+    font-size: 18px;
+}
+.two{
+    display: grid;
+    padding: 30px;
+}
+.two h2{
+    color: (224, 30%, 27%);
+    margin-top: -1px;
+}
+#reaction, #memory, #verbal, #visual{
+    margin-top: -1px;
+}
+button{
+    margin-top: 12px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+button p{
+    margin-top: 12px;
+}
+#two{
+    margin-left: 100px;
+}
+#one{
+    margin-left: 20px
+}
+#visual #two{
+    margin-left: 120px;
+}
+#verbal #two{
+    margin-left:115px;
+}
+
+#reaction{
+    background-color:hsl(0, 100%, 94%);
+    border-radius: 0.5rem;
+    padding: 10px;
+    color: hsl(0, 100%, 67%);
+}
+
+#memory{
+    background-color:hsl(39, 91%, 91%);
+    border-radius: 0.5rem;
+    padding: 10px;
+    color: hsl(39, 100%, 56%);
+}
+#verbal{
+    background-color:hsl(166, 76%, 85%);
+    border-radius: 0.5rem;
+    padding: 10px;
+    color: hsl(166, 100%, 37%);
+}
+#visual{
+    background-color:hsl(234, 91%, 91%);
+    border-radius: 0.5rem;
+    padding: 10px;
+    color: hsl(234, 85%, 45%);
+}
+#hundred{
+    color:hsl(221, 100%, 96%);
+}
+#digit{
+    color: hsl(224, 30%, 27%);
+}
+button{
+    background-color: hsl(224, 30%, 27%);
+    color:hsl(0, 0%, 100%);
+    border-radius: 1.5em;
+}
+button:hover{
+    background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
