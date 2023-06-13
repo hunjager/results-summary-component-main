@@ -90,32 +90,32 @@ button p{
 }
 
 #reaction{
-    background-color:hsl(0, 100%, 94%);
+    background-color:hsl(0, 100%, 67%,0.05);
     border-radius: 0.5rem;
     padding: 10px;
     color: hsl(0, 100%, 67%);
 }
 
 #memory{
-    background-color:hsl(39, 91%, 91%);
+    background-color:hsl(39, 91%, 91%,0.35);
     border-radius: 0.5rem;
     padding: 10px;
     color: hsl(39, 100%, 56%);
 }
 #verbal{
-    background-color:hsl(166, 76%, 85%);
+    background-color:hsl(166, 76%, 85%,0.35);
     border-radius: 0.5rem;
     padding: 10px;
     color: hsl(166, 100%, 37%);
 }
 #visual{
-    background-color:hsl(234, 91%, 91%);
+    background-color:hsl(234, 91%, 91%,0.35);
     border-radius: 0.5rem;
     padding: 10px;
     color: hsl(234, 85%, 45%);
 }
 #hundred{
-    color:hsl(221, 100%, 96%);
+    color:grey;
 }
 #digit{
     color: hsl(224, 30%, 27%);
@@ -127,4 +127,7 @@ button{
 }
 button:hover{
     background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+}
+#summary{
+    color:hsl(224, 30%, 27%);
 }
