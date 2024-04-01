@@ -15,6 +15,8 @@ body{
     border-top-right-radius:1.5rem;
     border-bottom-right-radius:1.5rem;
     border-radius: 1.5rem;
+    margin: 0;
+    padding: 0;
 }
 
 .one{
@@ -74,10 +76,14 @@ button{
     height: 50px;
     align-items: center;
     justify-content: center;
+    font-size: 18px;
+    background-color: hsl(224, 30%, 27%);
+    border-color: hsl(224, 30%, 27%);;
+    color:hsl(0, 0%, 100%);
+    border-radius: 4.5em;
+    border: none;
 }
-button p{
-    margin-top: 12px;
-}
+
 #two{
     margin-left: 100px;
 }
@@ -122,23 +128,25 @@ button p{
 #digit{
     color: hsl(224, 30%, 27%);
 }
-button{
-    background-color: hsl(224, 30%, 27%);
-    border-color: hsl(224, 30%, 27%);;
-    color:hsl(0, 0%, 100%);
-    border-radius: 4.5em;
-}
+
 button:hover{
     background-image: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
-    border-color: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));;
+    border-color: linear-gradient(to bottom,hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    cursor: pointer;
 }
 #summary{
     color:hsl(224, 30%, 27%);
 }
-@media (max-width: 600px){
+.two p{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 700px){
     body{
         background-color: hsl(0, 0%, 100%);
         height: 100%;
+        margin: 0;
+        padding: 0;
     }
     .main{
         flex-direction: column;
@@ -147,9 +155,10 @@ button:hover{
         height: 100%;
         width: 100%;
         margin-top: -20px;
+        
     }
     .score{
-        width: 25%
+        width: 20%
     }
     .one{
         width:86%;
@@ -183,6 +192,11 @@ button:hover{
     .one{
         width: 85.5%;
     }
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    
 }
 @media (max-width:400px){
     .one{
@@ -200,6 +214,10 @@ button:hover{
     #verbal #two{
         margin-left:135px;
     }
+    body{
+        padding: 0;
+        margin: 0;
+    }
 }
 @media (max-width:360px){
     .one{
@@ -216,6 +234,10 @@ button:hover{
     }
     #verbal #two{
         margin-left:105px;
+    }
+    body{
+        padding: 0;
+        margin: 0;
     }
 
 }
@@ -236,6 +258,10 @@ button:hover{
     }
     .score{
         width: 35%;
+    }
+    body{
+        padding: 0;
+        margin: 0;
     }
 
 }
